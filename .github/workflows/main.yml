@@ -32,8 +32,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           
-      - name: package into the wheel
-        run: pip3 install --upgrade setuptools && python3 setup.py
+      #- name: package into the wheel
+        #run: pip3 install --upgrade setuptools && python3 setup.py
   
       - name: Install development dependencies
         run: pip3 install wheel --upgrade && pip3 install -e .[dev]
