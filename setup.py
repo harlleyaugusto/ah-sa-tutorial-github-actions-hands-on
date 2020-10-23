@@ -10,7 +10,7 @@ setup(
     extras_require={
         "dev": [
             "pytest",
-            "pre-commit==2.7.1"
+            "pre-commit"
         ]
     }
 )
