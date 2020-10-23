@@ -13,5 +13,4 @@ setup(
             "pre-commit==2.7.1"
         ]
     }
->>>>>>> 175fcceb7ab46722e09f62f34441d7c6578e1d3c
 )
