@@ -32,5 +32,5 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           
-      - script: pre-commit run --all-files
-          displayName: Run pre-commit hooks (black, flake8, mypy, etc)
+      - name: pre-commit 
+        run: pre-commit run --all-files
